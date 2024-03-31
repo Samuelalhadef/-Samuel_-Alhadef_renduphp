@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #10171e; /* Fond noir */
+  color: #ffffff; /* Texte blanc pour contraste */
+}
+
+.success {
+  color: #1da1f2; /* Couleur succès inspirée de Twitter */
+}
+
+.danger {
+  color: #e0245e; /* Couleur danger plus vive */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Changement de disposition */
+  align-items: center; /* Centrer les éléments */
+  max-width: 1200px; /* Largeur max plus grande */
+  margin-top: 20px;
+}
+
+nav {
+  width: 100%;
+  background-color: #15202b; /* Fond de la barre de navigation */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; /* Espacement des éléments de menu */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  padding: 15px;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+#tweetForm {
+  width: 100%;
+  max-width: 600px; /* Limite la largeur du formulaire */
+}
+
+#tweetForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #253341;
+  color: white;
+  border: 1px solid #38444d;
+  border-radius: 5px;
+}
+
+#tweetForm button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%; /* Bouton plein largeur */
+}
+
+.tweets .tweet {
+  background-color: #15202b;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #38444d;
+  width: 100%; /* Largeur pleine pour les tweets */
+}
+
+.tweets h3 {
+  color: #1da1f2; /* Couleur d'en-tête inspirée de Twitter */
+}
+
+.delete-button {
+  background-color: #e0245e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
